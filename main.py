@@ -8,8 +8,8 @@ class GridEnv(gym.Env):
     def __init__(self, size=5):
         super(GridEnv, self).__init__()
         self.size = size
-        self.state = [0, 0] 
-        self.goal = [size - 1, size - 1]  
+        self.state = [0, 0] # starting position is the top left corner
+        self.goal = [size - 1, size - 1]  # goal is the bottom right corner
         self.danger_zone = [[2, 2]]
         self.observation_space = gym.spaces.Box(low=0, high=size-1, shape=(2,), dtype=np.int32)
         self.action_space = gym.spaces.Discrete(4) 
