@@ -1,2 +1,3 @@
-run main file
-profit
+`python3 main.py`  
+
+# profit
