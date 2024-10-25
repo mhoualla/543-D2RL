@@ -1,4 +1,4 @@
 stable-baselines3
-gym
+gym # OPENAI GYM NOT THE ACTUAL GYM
 numpy
 matplotlib
