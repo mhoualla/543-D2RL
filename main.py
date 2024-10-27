@@ -98,3 +98,4 @@ visualize_path(env, model_drl)
 
 print("D2RL Path:")
 visualize_path(d2rl_env, model_d2rl)
+

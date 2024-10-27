@@ -2,3 +2,4 @@ stable-baselines3
 gym # OPENAI GYM NOT THE ACTUAL GYM
 numpy
 matplotlib
+pandas
